@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355b5459-f574-4e27-8b51-fde52623c8c3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Attachment-1.jpeg" afterPath="$PROJECT_DIR$/app/assets/images/Attachment-1.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
     </list>
     <ignored path="ronin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2868526">
-              <caret line="235" column="43" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.15936255">
+              <caret line="231" column="23" selection-start-line="231" selection-start-column="23" selection-end-line="231" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -699,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2868526">
-          <caret line="235" column="43" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.15936255">
+          <caret line="231" column="23" selection-start-line="231" selection-start-column="23" selection-end-line="231" selection-end-column="23" />
           <folding />
         </state>
       </provider>
