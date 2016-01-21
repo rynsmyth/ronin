@@ -1,5 +1,5 @@
-    <header id="first" class="container-fluid">
-        <div class="header-content">
+    <header id="first"">
+        <div class="container-fluid">
           <%= image_tag "Attachment-1.JPG", class: "img-responsive", width: "100%", height: "100%" %>
         </div>
     </header>
@@ -161,7 +161,7 @@
             </div>
         </div>
     </section>
-    <section id="three" class="col-md-6 col-md-offset-3">
+    <section id="three" class="container-fluid">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -179,28 +179,28 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <%= image_tag "IMG_0621.JPG", class: "img-responsive" %>
+            <%= image_tag "IMG_0621.JPG" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_2921.JPG" %>
+            <%= image_tag "IMG_2921.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_3286.JPG" %>
+            <%= image_tag "IMG_3286.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_3821.JPG" %>
+            <%= image_tag "IMG_3821.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_6751.JPG" %>
+            <%= image_tag "IMG_6751.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_7157.JPG" %>
+            <%= image_tag "IMG_7157.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_7944.JPG" %>
+            <%= image_tag "IMG_7944.JPG", class: "img-responsive" %>
           </div>
           <div class="item">
-            <%= image_tag "IMG_8934.JPG" %>
+            <%= image_tag "IMG_8934.JPG", class: "img-responsive" %>
           </div>
         </div>
 
@@ -215,7 +215,7 @@
         </a>
       </div>
     </section>
-    <section class="container-fluid" id="four">
+    <section id="four" class="container-fluid">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 well">
                 <h2 class="text-center text-dark">Course Dates</h2>
@@ -272,79 +272,19 @@
             </div>
         </div>
     </section>
-    <section class="well" id="last">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
-                    <hr class="primary">
-                    <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4">
-                            <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <section id="about">
+      <div class="col-md-6 col-md-offset-3">
+      <div class="well">
+        <h1 class="text-center">Abouts Us</h1>
+        <h2 class="text-center">Ronin Training Institute </h2>
+        <p class="text-justify">
+          Ronin Training Institute is a veteran owned and operated company that offers a wide variety of training in: firearms, active shooter in the workplace response, security, executive protection, and self-defense in the Denver metro area.</p>
+        <p class="text-justify">Our instructors are professional security experts with over 25 years of experience in international executive security and protection along with specialized military service and extensive expertise in martial arts.</p>
+        <p class="text-justify">Contact us today to discover how we can meet your training needs.</p>
+      </div>
+        </div
     </section>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-        	<div class="modal-body">
-        		<img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
-        		<p>
-        		    <br/>
-        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
-        		</p>
-        	</div>
-        </div>
-        </div>
-    </div>
-    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-        <div class="modal-content">
-        	<div class="modal-body">
-        		<h2 class="text-center">Ronin Training Institute </h2>
-        		<p class="text-justify">
-              Ronin Training Institute is a veteran owned and operated company that offers a wide variety of training in: firearms, active shooter in the workplace response, security, executive protection, and self-defense in the Denver metro area. Our instructors are professional security experts with over 25 years of experience in international executive security and protection along with specialized military service and extensive expertise in martial arts. Contact us today to discover how we can meet your training needs.
-            </p>
-        		<br/>
-        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
-        	</div>
-        </div>
-        </div>
-    </div>
-    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-        	<div class="modal-body">
-        		<h2 class="text-center">Nice Job!</h2>
-        		<p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
-        		<p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
-        		<br/>
-        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
-        	</div>
-        </div>
-        </div>
-    </div>
+
+
+
 

@@ -230,51 +230,14 @@ header {
     position: relative;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    width: 100%;
-    /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
-    /*background-color: #c9c9c9;*/
+    color: transparent;
+    /*width: 100%;*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-  padding-top: 100px;
-}
-
-header .header-content {
-    position: relative;
-    width: 100%;
-    padding: 100px 15px;
-    text-align: center;
-    z-index: 2;
-}
-
-header .header-content .inner h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-header .header-content .inner p {
-    margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.7);
-}
-
-#video-background {
-  position: absolute;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: 1;
-}
-
-#video-background.collapsing {
-  display:none;
+    /*padding-top: 100px;*/
 }
 
 footer {
@@ -315,12 +278,6 @@ footer {
         max-width: 80%;
         font-size: 18px;
     }
-    
-    section {
-        min-height: 600px;
-        padding: 100px 0;
-    }
-
 }
 
 .form-control {
@@ -548,6 +505,8 @@ img::-moz-selection {
   background-color: #c9c9c9;
   background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
   background-position: center;
+  min-width: auto;
+  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -564,12 +523,26 @@ img::-moz-selection {
   -o-background-size: cover;
 }
 
+#about {
+  min-height: 100%;
+  background-color: #c9c9c9;
+  background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;;
+}
+
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
   height       : 500px;
   margin-bottom: 60px;
+  min-width: 100%;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -584,9 +557,10 @@ img::-moz-selection {
 
 
 .carousel-inner > .item > img {
-  position : absolute;
+  position : relative;
   top      : 0;
   left     : 0;
-  min-width: 100%;
+  min-width: auto;
   height   : 500px;
+  margin: 0 auto;
 }

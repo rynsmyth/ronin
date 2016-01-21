@@ -23,29 +23,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#first">RTI</a>
+      <%= link_to 'RTI', root_path, class: 'navbar-brand page-scroll', id: '#first' %>
     </div>
     <div class="navbar-collapse collapse" id="bs-navbar">
       <ul class="nav navbar-nav">
         <li>
-          <a class="page-scroll" href="#one">Instructors</a>
+          <%= link_to 'Instructors', root_path(anchor: "one"), class: "page-scroll" %>
         </li>
         <li>
-          <a class="page-scroll" href="#two">Courses</a>
+          <%= link_to 'Courses', root_path(anchor: "two"), class: "page-scroll" %>
         </li>
         <li>
-          <a class="page-scroll" href="#three">Gallery</a>
+          <%= link_to 'Gallery', root_path(anchor: "three"), class: "page-scroll" %>
         </li>
         <li>
-          <a class="page-scroll" href="#four">Course Dates</a>
+          <%= link_to 'Course Dates', root_path(anchor: "four"), class: "page-scroll" %>
         </li>
         <li>
-          <a class="page-scroll" href="#last">Contact</a>
+          <%= link_to 'Contact Us', new_contact_path %>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
+          <%= link_to 'About Us', root_path(anchor: "about"), class: "page-scroll" %>
         </li>
       </ul>
     </div>
